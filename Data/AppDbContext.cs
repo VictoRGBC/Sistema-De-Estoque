@@ -10,7 +10,7 @@ namespace GerenciadorEstoque.Data
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            string connectionString = "server=localhost;port=3306;database=dbestoquesist;user=root;password=1234";
+            string connectionString = "server=localhost;port=3306;database=dbestoquesist;user=root;password=****";
             optionsBuilder.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString));
         }
     }
